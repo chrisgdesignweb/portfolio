@@ -121,10 +121,10 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 17px; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
+  font-size: 16px; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.8;
   font-weight: 400;
-  font-family: 'Khula', sans-serif; color: #333; }
+  font-family: 'Khula', sans-serif; color: #777; }
 
 
 /* Typography
@@ -146,7 +146,11 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h2 { font-size: 4.2rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
-  h5 { font-size: 2.4rem; }
+  h5 { font-size: 2.4rem; font-family: 'Khula', sans-serif; 
+      color: #777;
+    font-weight:600; 
+    text-align: center;
+    margin-top: 15px;}
   h6 { font-size: 1.5rem; }
 }
 
@@ -419,6 +423,14 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.right { 
+    text-align: left;
+}
+
+#center { 
+    text-align: center;
 }
 
 
