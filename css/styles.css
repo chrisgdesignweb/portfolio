@@ -433,6 +433,10 @@ hr {
     text-align: center;
 }
 
+.contacttitle {
+        text-align: left;
+}
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
